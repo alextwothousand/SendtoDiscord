@@ -13,6 +13,6 @@ async def on_ready():
     print('Bot online!')
     while True:
         text = gui.PopupGetText('Python to Discord\nPlease enter something to be sent to that Discord server.')
-        await bot.send_message(bot.get_channel('ENTER YOUR CHANNEL ID HERE', text)
+        await bot.send_message(bot.get_channel('ENTER YOUR CHANNEL ID HERE'), text)
     
 bot.run(token)
